@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autonomous SEO — SEO execution on autopilot</title>
+    <meta
+      name="description"
+      content="Автономный SEO-оператор, который сам находит и внедряет SEO-улучшения на сайте. Не просто пишет контент — реально улучшает страницы, перелинковку и visibility."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              slate: { 950: '#020617' },
+              brand: {
+                300: '#8ecbff',
+                400: '#57aeff',
+                500: '#2a8cff',
+                600: '#176ef5'
+              },
+              accent: '#7c3aed'
+            },
+            boxShadow: {
+              glow: '0 0 0 1px rgba(255,255,255,0.06), 0 24px 80px rgba(23,110,245,0.18)'
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      body {
+        background:
+          radial-gradient(circle at top left, rgba(42, 140, 255, 0.16), transparent 28%),
+          radial-gradient(circle at top right, rgba(124, 58, 237, 0.16), transparent 26%),
+          linear-gradient(180deg, #020617 0%, #081122 48%, #020617 100%);
+      }
+      .glass {
+        background: rgba(10, 18, 34, 0.65);
+        backdrop-filter: blur(14px);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased">
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/75 backdrop-blur-xl">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+        <a href="#top" class="flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-accent text-sm font-bold shadow-glow">A</div>
+          <div>
+            <div class="text-sm font-semibold tracking-wide text-white">Autonomous SEO</div>
+            <div class="text-xs text-slate-400">SEO execution on autopilot</div>
+          </div>
+        </a>
+
+        <nav class="hidden items-center gap-8 text-sm text-slate-300 md:flex">
+          <a class="transition hover:text-white" href="#solution">Решение</a>
+          <a class="transition hover:text-white" href="#features">Что делает</a>
+          <a class="transition hover:text-white" href="#faq">FAQ</a>
+        </nav>
+
+        <a href="#cta" class="hidden rounded-full border border-brand-400/40 bg-brand-500/10 px-5 py-2.5 text-sm font-semibold text-slate-100 transition hover:bg-brand-500/20 md:inline-flex">Запросить доступ</a>
+
+        <button id="menuButton" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-slate-200 md:hidden" aria-label="Открыть меню">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <div id="mobileMenu" class="hidden border-t border-white/10 bg-slate-950/95 px-6 py-4 md:hidden">
+        <div class="flex flex-col gap-4 text-sm text-slate-300">
+          <a href="#solution">Решение</a>
+          <a href="#features">Что делает</a>
+          <a href="#faq">FAQ</a>
+          <a href="#cta" class="rounded-full bg-brand-500 px-5 py-3 text-center font-semibold text-white">Запросить доступ</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-28">
+        <div class="max-w-3xl">
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-400/20 bg-brand-500/10 px-4 py-2 text-sm text-brand-300">
+            <span class="inline-block h-2 w-2 rounded-full bg-emerald-400"></span>
+            Автономный SEO-оператор для Google и AI-поиска
+          </div>
+          <h1 class="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+            Подключите сайт — AI сам найдёт и внедрит <span class="bg-gradient-to-r from-brand-300 via-white to-violet-300 bg-clip-text text-transparent">SEO-улучшения</span>
+          </h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
+            Не просто пишет контент. Улучшает страницы, усиливает перелинковку и повышает visibility в Google и AI-search.
+          </p>
+
+          <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a href="#cta" class="inline-flex items-center justify-center rounded-full bg-brand-500 px-7 py-4 text-base font-semibold text-white shadow-glow transition hover:bg-brand-400">Запросить ранний доступ</a>
+            <a href="#solution" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-4 text-base font-semibold text-slate-100 transition hover:bg-white/10">Как это работает</a>
+          </div>
+
+          <div class="mt-8 flex flex-col gap-3 text-sm text-slate-300 sm:flex-row sm:flex-wrap">
+            <div class="rounded-full border border-white/10 bg-white/5 px-4 py-2">Low-risk changes — auto</div>
+            <div class="rounded-full border border-white/10 bg-white/5 px-4 py-2">Risky changes — review</div>
+            <div class="rounded-full border border-white/10 bg-white/5 px-4 py-2">Все действия — в журнале</div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="glass rounded-3xl border border-white/10 p-5 shadow-glow">
+            <div class="mb-5 flex items-center justify-between border-b border-white/10 pb-4">
+              <div>
+                <p class="text-sm text-slate-400">Live SEO activity</p>
+                <h2 class="text-xl font-semibold text-white">Панель агента</h2>
+              </div>
+              <div class="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">Автопилот включён</div>
+            </div>
+
+            <div class="space-y-4">
+              <div class="rounded-2xl border border-white/10 bg-slate-900/80 p-4">
+                <p class="text-sm font-medium text-white">Следующие улучшения</p>
+                <div class="mt-4 space-y-3 text-sm">
+                  <div class="flex items-center justify-between rounded-xl bg-white/5 px-3 py-3 text-slate-200">
+                    <span>Обновить title /pricing</span>
+                    <span class="text-emerald-300">auto</span>
+                  </div>
+                  <div class="flex items-center justify-between rounded-xl bg-white/5 px-3 py-3 text-slate-200">
+                    <span>Добавить internal links в blog cluster</span>
+                    <span class="text-emerald-300">auto</span>
+                  </div>
+                  <div class="flex items-center justify-between rounded-xl bg-white/5 px-3 py-3 text-slate-200">
+                    <span>Обновить hero copy на landing</span>
+                    <span class="text-amber-300">review</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Visibility</p>
+                  <p class="mt-3 text-3xl font-semibold text-white">+27%</p>
+                  <p class="mt-2 text-sm text-slate-400">Рост по приоритетным страницам</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Time saved</p>
+                  <p class="mt-3 text-3xl font-semibold text-white">41 ч</p>
+                  <p class="mt-2 text-sm text-slate-400">Сэкономлено за месяц</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute -left-8 top-16 -z-10 h-28 w-28 rounded-full bg-brand-500/20 blur-3xl"></div>
+          <div class="absolute -bottom-6 right-8 -z-10 h-32 w-32 rounded-full bg-violet-500/20 blur-3xl"></div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-6 py-6 lg:px-8 lg:py-10">
+        <div class="grid gap-5 md:grid-cols-3">
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">SEO-backlog растёт</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Задач становится больше, а внедрение почти всегда не успевает.</p>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">AI writers решают только часть проблемы</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Контент — это не весь SEO. Нужны страницы, структура, linking и обновления.</p>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">Аудит не равен внедрению</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Знать, что исправить, недостаточно. Нужно, чтобы изменения реально появлялись на сайте.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="solution" class="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-16">
+        <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+          <div class="rounded-[2rem] border border-brand-400/20 bg-gradient-to-br from-brand-500/15 to-violet-500/10 p-8">
+            <p class="text-sm font-medium uppercase tracking-[0.3em] text-brand-300">Решение</p>
+            <h2 class="mt-4 text-3xl font-semibold text-white">Не ещё один SEO-инструмент. Автономный SEO-оператор.</h2>
+            <p class="mt-5 text-slate-300">Сервис сам находит точки роста, приоритизирует задачи, внедряет безопасные изменения и измеряет результат.</p>
+          </div>
+          <div class="grid gap-5 md:grid-cols-2">
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <h3 class="text-lg font-semibold text-white">Находит возможности</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-400">Сканирует сайт и понимает, где теряется рост.</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <h3 class="text-lg font-semibold text-white">Приоритизирует по impact</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-400">Сначала делает то, что реально способно двинуть трафик.</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <h3 class="text-lg font-semibold text-white">Внедряет изменения</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-400">Не только советует, а двигает сайт вперёд каждый день.</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <h3 class="text-lg font-semibold text-white">Продолжает цикл</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-400">Измеряет результат и запускает следующую итерацию.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-16">
+        <div class="max-w-2xl">
+          <p class="text-sm font-medium uppercase tracking-[0.3em] text-brand-300">Что делает</p>
+          <h2 class="mt-4 text-3xl font-semibold text-white sm:text-4xl">Шире, чем просто AI content</h2>
+        </div>
+        <div class="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">Existing pages</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Улучшает уже существующие страницы, а не только создаёт новые.</p>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">Internal linking</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Усиливает связность сайта и распределение SEO-веса.</p>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">Content refresh</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Возвращает в рост старые страницы и устаревший контент.</p>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">On-page optimization</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Title, meta, headings, structure и intent-match.</p>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">AI visibility</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Работает не только на Google, но и на новую среду AI-search.</p>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <h3 class="text-lg font-semibold text-white">Review & logs</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-400">Все изменения прозрачны, важные правки можно согласовывать.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-16">
+        <div class="grid gap-6 lg:grid-cols-2">
+          <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8">
+            <p class="text-sm font-medium uppercase tracking-[0.3em] text-brand-300">Отстройка</p>
+            <h2 class="mt-4 text-3xl font-semibold text-white">Это не просто AI writer</h2>
+            <ul class="mt-6 space-y-4 text-sm text-slate-300">
+              <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-brand-300"></span><span>Работает с текущим сайтом, а не только с новыми статьями</span></li>
+              <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-brand-300"></span><span>Внедряет изменения, а не просто показывает инсайты</span></li>
+              <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-brand-300"></span><span>Следит и за Google, и за AI-search</span></li>
+            </ul>
+          </div>
+
+          <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8">
+            <p class="text-sm font-medium uppercase tracking-[0.3em] text-brand-300">Контроль</p>
+            <h2 class="mt-4 text-3xl font-semibold text-white">Автономность без хаоса</h2>
+            <div class="mt-6 grid gap-4 sm:grid-cols-2">
+              <div class="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-sm text-slate-300">Approval mode</div>
+              <div class="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-sm text-slate-300">Rollback</div>
+              <div class="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-sm text-slate-300">Журнал изменений</div>
+              <div class="rounded-2xl border border-white/10 bg-slate-950/60 p-4 text-sm text-slate-300">Правила бренда</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-16">
+        <div class="rounded-[2rem] border border-brand-400/20 bg-gradient-to-br from-brand-500/10 via-white/5 to-violet-500/10 p-8 lg:p-10">
+          <p class="text-sm font-medium uppercase tracking-[0.3em] text-brand-300">Что получает команда</p>
+          <div class="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+            <div class="rounded-3xl border border-white/10 bg-slate-950/50 p-6">
+              <p class="text-base font-medium text-white">Больше внедрённых улучшений</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-slate-950/50 p-6">
+              <p class="text-base font-medium text-white">Меньше ручной рутины</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-slate-950/50 p-6">
+              <p class="text-base font-medium text-white">Рост visibility</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-slate-950/50 p-6">
+              <p class="text-base font-medium text-white">Прозрачный SEO-процесс</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="mx-auto max-w-5xl px-6 py-12 lg:px-8 lg:py-16">
+        <div class="text-center">
+          <p class="text-sm font-medium uppercase tracking-[0.3em] text-brand-300">FAQ</p>
+          <h2 class="mt-4 text-3xl font-semibold text-white sm:text-4xl">Коротко о главном</h2>
+        </div>
+        <div class="mt-10 space-y-4">
+          <details class="group rounded-2xl border border-white/10 bg-white/5 p-5">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-medium text-white">Это просто AI writer?<span class="text-brand-300 transition group-open:rotate-45">+</span></summary>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Нет. Он не только пишет, а системно улучшает сайт.</p>
+          </details>
+          <details class="group rounded-2xl border border-white/10 bg-white/5 p-5">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-medium text-white">Что меняется автоматически?<span class="text-brand-300 transition group-open:rotate-45">+</span></summary>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Безопасные и предсказуемые изменения. Более чувствительные — через review.</p>
+          </details>
+          <details class="group rounded-2xl border border-white/10 bg-white/5 p-5">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-medium text-white">Это только для блога?<span class="text-brand-300 transition group-open:rotate-45">+</span></summary>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Нет. Для всего SEO-слоя сайта: страницы, структура, linking и visibility.</p>
+          </details>
+          <details class="group rounded-2xl border border-white/10 bg-white/5 p-5">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-medium text-white">Можно ли сохранить контроль?<span class="text-brand-300 transition group-open:rotate-45">+</span></summary>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Да. Есть approval flow, журнал действий и rollback.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="cta" class="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-20">
+        <div class="overflow-hidden rounded-[2rem] border border-brand-400/20 bg-gradient-to-br from-brand-600/20 via-slate-900 to-violet-600/20 p-8 sm:p-10 lg:p-14">
+          <div class="max-w-3xl">
+            <p class="text-sm font-medium uppercase tracking-[0.3em] text-brand-300">Финальный CTA</p>
+            <h2 class="mt-4 text-3xl font-semibold text-white sm:text-4xl lg:text-5xl">Запустите SEO-автопилот для своего сайта</h2>
+            <p class="mt-5 text-lg leading-8 text-slate-300">Подключите сайт и посмотрите, какие улучшения агент найдёт первым.</p>
+          </div>
+          <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a href="mailto:founder@example.com?subject=Ранний%20доступ%20к%20Autonomous%20SEO" class="inline-flex items-center justify-center rounded-full bg-white px-7 py-4 text-base font-semibold text-slate-950 transition hover:bg-slate-100">Запросить ранний доступ</a>
+            <a href="#top" class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-4 text-base font-semibold text-white transition hover:bg-white/10">Наверх</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 py-8">
+      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 text-sm text-slate-400 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+        <p>Autonomous SEO — обновлённый концепт лендинга.</p>
+        <p>HTML + Tailwind CDN + минимум JS.</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+      if (menuButton && mobileMenu) {
+        menuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+    </script>
+  </body>
+</html>
