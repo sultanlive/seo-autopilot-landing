@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#020617"/>
+  <circle cx="176" cy="118" r="180" fill="#2A8CFF" fill-opacity="0.18"/>
+  <circle cx="1048" cy="92" r="170" fill="#7C3AED" fill-opacity="0.18"/>
+  <circle cx="1020" cy="552" r="180" fill="#2A8CFF" fill-opacity="0.10"/>
+  <rect x="74" y="72" width="164" height="164" rx="42" fill="url(#g)"/>
+  <path d="M117 195L146.5 120H158.5L188 195H173.1L166.5 177.5H138.1L131.5 195H117Z" fill="white"/>
+  <path d="M142.6 165H162L152.4 138.4L142.6 165Z" fill="#2A8CFF"/>
+  <text x="74" y="332" fill="white" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="700">VibeSEO</text>
+  <text x="74" y="402" fill="#D6E7FF" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="600">Autonomous SEO Operator</text>
+  <text x="74" y="478" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="30">SEO execution on autopilot for Google and AI search</text>
+  <rect x="74" y="520" width="406" height="54" rx="27" fill="#0F172A" stroke="#334155"/>
+  <text x="103" y="555" fill="#D6E7FF" font-family="Inter, Arial, sans-serif" font-size="26">vibeseo.me</text>
+  <defs>
+    <linearGradient id="g" x1="102" y1="90" x2="220" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A8CFF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+</svg>
